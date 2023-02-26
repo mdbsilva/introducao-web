@@ -1,0 +1,39 @@
+/*
+Cada linha de comando deve ser envolvida em chaves ({}).
+Dentro de cada declaração, você deve usar dois pontos (:) para separar a propriedade de seus valores.
+Dentro de cada conjunto de regras, você deve usar um ponto e vírgula (;) para separar cada declaração da próxima.
+
+Então para modificar múltiplos valores de propriedades de uma vez, você deve escrevê-los separados por ponto e vírgula
+*/
+
+
+p
+
+/*Seletor (Selector)
+
+O nome do elemento HTML no começo do conjunto de regras. Ele seleciona o(s) elemento(s) a serem estilizados (nesse caso, elementos <p>). Para dar estilo a um outro elemento, é só mudar o seletor.
+*/
+    {
+    color: red;
+    /*Declaração (Declaration)
+
+Uma regra simples como color: red; especificando quais das propriedades do elemento você quer estilizar.
+
+Propriedades (Property)
+
+Forma pela qual você estiliza um elemento HTML. (Nesse caso, color é uma propriedade dos elementos <p>.) Em CSS, você escolhe quais propriedades você deseja afetar com sua regra.
+
+alor da propriedade (Property value)
+
+À direita da propriedade, depois dos dois pontos, nós temos o valor de propriedade, que escolhe uma dentre muitas aparências possíveis para uma determinada propriedade (há muitos valores color(cor) além do red(vermelho))
+*/
+
+    width: 500px;
+    border: 1px solid black;
+}
+
+p,
+li,
+h1 {
+    color: red;
+}
